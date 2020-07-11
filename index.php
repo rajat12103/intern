@@ -9,7 +9,7 @@ $result = mysqli_query($con, $sql);
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Upload View & Download file in PHP and MySQL | Demo</title>
+    <title>Upload</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <meta content="width=device-width, initial-scale=1.0" name="viewport" >
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
