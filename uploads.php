@@ -12,7 +12,7 @@ if (isset($_POST['submit']))
 
         if (in_array($ext, $allowed))
         {
-            $sql = 'select max(id) as id from tbl_files';
+            $sql = 'select max(id) as id from user';
             $result = mysqli_query($con, $sql);
             if (count($result) > 0)
             {
@@ -27,7 +27,7 @@ if (isset($_POST['submit']))
             $created = @date('Y-m-d H:i:s');
             move_uploaded_file($_FILES['file1']['tmp_name'],($path . $filename));
             
-            $sql = "INSERT INTO tbl_files(filename, created) VALUES('$filename', '$created')";
+            $sql = "INSERT INTO user(filename, created) VALUES('$filename', '$created')";
             mysqli_query($con, $sql);
             header("Location: index.php?st=success");
         }

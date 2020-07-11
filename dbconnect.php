@@ -3,6 +3,6 @@
 $host = "localhost";
 $user = "root";
 $pass = "";
-$db = "demo";
+$db = "intern";
 $con = mysqli_connect($host, $user, $pass, $db) or die("Error " . mysqli_error($con));
 ?>

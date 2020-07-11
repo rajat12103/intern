@@ -2,7 +2,7 @@
 include_once 'dbconnect.php';
 
 // fetch files
-$sql = "select filename from tbl_files";
+$sql = "select filename from user";
 $result = mysqli_query($con, $sql);
 ?>
 
